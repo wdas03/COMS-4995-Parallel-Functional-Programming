@@ -1,0 +1,10 @@
+.stack-work/
+.vscode/
+dist-newstyle/
+src/dist-newstyle/
+stack.yaml.lock
+GRNPar-exe.hp
+GRNPar-exe.eventlog
+hreaded
+.DS_STORE
+*~

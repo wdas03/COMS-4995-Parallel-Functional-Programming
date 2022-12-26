@@ -1,0 +1,50 @@
+Name: William Das
+Uni: whd2108
+
+Collaborators: 
+I wrote all this code myself, consulted all ED discussion posts on the topic, and reviewed all class slides, particularly on monads, recursive functions, and IO.
+
+References: 
+https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/ (BFS review)
+https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/ (DFS review)
+https://hackage.haskell.org/package/containers-0.2.0.1/docs/Data-Map.html
+https://hackage.haskell.org/package/containers-0.6.6/docs/Data-Map-Strict.html
+https://hackage.haskell.org/package/containers-0.6.6/docs/Data-Set.html
+http://learnyouahaskell.com/higher-order-functions#folds
+https://hackage.haskell.org/package/bytestring-0.11.3.1/docs/Data-ByteString-Char8.html#g:18 (ByteString)
+https://hackage.haskell.org/package/base-4.17.0.0/docs/Data-Char.html
+http://learnyouahaskell.com/a-fistful-of-monads#walk-the-line (Monads)
+http://learnyouahaskell.com/modules#data-map
+http://learnyouahaskell.com/input-and-output (IO)
+https://wiki.haskell.org/IO_inside (IO)
+All slides/ED discussion posts on HW.
+
+-----------------------------
+
+COMS 4995 002 Parallel Function Programming
+
+Homework 4
+
+Due at 11:59 PM Sunday, November 6th, 2022
+
+Edit this file, wordFreq.hs, and wordLadder.hs, combine them in
+a .zip file (no subdirectories, please), and upload it to Courseworks.
+Do not rename the files.
+
+Above, include your name, UNI, list of people with whom your spoke about the
+assignment, and online references your consulted.
+
+Write your code alone.  You many consult the instructor, TAs, and other
+students, but do not copy/modify other's code.
+
+-----
+
+Grading: 60% correctness: first and foremost, it needs to be correct
+         30% style: is it readable, functional, concise?
+	 10% performance
+
+Use lts-19.23 as the "resolver" for the Haskell Tool Stack.
+
+Your code should compile under GHC 9.0.2 with no warnings, e.g.,
+
+stack --resolver lts-19.23 ghc -- --make -Wall wordFreq

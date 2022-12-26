@@ -1,0 +1,8 @@
+101 Melon 800
+102 Strawberry 150  
+103 Apple 120       
+104 Lemon 200       
+201 Chestnut 100    
+202 Persimmon 160   
+301 Peach 130       
+302 Kiwi 200
